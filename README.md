@@ -24,10 +24,11 @@ The datasets used for this project came from http://ninaweb.hevs.ch/, specifical
 With the data successfully stored in the correct directory, simply load the 'preprocessing' notebook and run all cells to unify the subject data, standardise it, then perform windowing and feature extraction (this may take some time). This should populate the 'dataset' directory and subdirectories ready for classifying through the 'classifiers' notebook which requires just running all the cells to run six sets of tests (training on individuals within a dataset or pairing in both, training on each entire dataset/both) for the three feature extraction methods and three classifiers (for a grand total of 54 tests, so this will definitely take quite some time!). At the end of the notebook the results are visualised as bar and scatter charts.
 
 Average classification accuracy when trained on individual subjects:-
-[[https://github.com/harrisonjeffrey/EMGPatternRec/blob/master/img/classification_ind.png|alt=classification accuracy]]
+![Alt text](img/classification_ind.png?raw=true "Average Subject Classification Accuracy")
 
-[[https://github.com/harrisonjeffrey/EMGPatternRec/blob/master/img/classification_ind_scatter.png|alt=classification accuracy]]
+![Alt text](img/classification_ind_scatter.png?raw=true "Classification Accuracy Between Datasets")
+
 Classification accuracy when trained on entire datasets:-
-[[https://github.com/harrisonjeffrey/EMGPatternRec/blob/master/img/classification_whole.png|alt=classification accuracy]]
+![Alt text](img/classification_whole.png?raw=true "Classification Accuracy")
 
-[[https://github.com/harrisonjeffrey/EMGPatternRec/blob/master/img/classification_whole_scatter.png|alt=classification accuracy]]
+![Alt text](img/classification_whole_scatter.png?raw=true "Classification Accuracy Between Datasets")
