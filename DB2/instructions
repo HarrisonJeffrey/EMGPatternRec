@@ -1,0 +1,3 @@
+Extract EMG, Rerepetition, Restimulus columns as individual CSV files for each subject as mentioned in the README.
+
+The eleven subjects chosen in the research paper were: 2, 6, 8, 10, 12, 13, 16, 21, 23, 26, 31
